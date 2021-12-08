@@ -17,43 +17,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mhg-7S-uYu">
-                                <rect key="frame" x="137" y="84" width="140" height="140"/>
+                                <rect key="frame" x="147" y="84" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="140" id="WH1-uf-lzR"/>
-                                    <constraint firstAttribute="height" constant="140" id="WHa-HK-pV2"/>
+                                    <constraint firstAttribute="width" constant="120" id="WH1-uf-lzR"/>
+                                    <constraint firstAttribute="height" constant="120" id="WHa-HK-pV2"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z4w-8x-5qE">
-                                <rect key="frame" x="137" y="264" width="140" height="140"/>
+                                <rect key="frame" x="147" y="244" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="140" id="mR7-e4-dEQ"/>
-                                    <constraint firstAttribute="width" constant="140" id="ujX-Rr-E2m"/>
+                                    <constraint firstAttribute="height" constant="120" id="mR7-e4-dEQ"/>
+                                    <constraint firstAttribute="width" constant="120" id="ujX-Rr-E2m"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FGO-bY-LFC">
-                                <rect key="frame" x="137" y="444" width="140" height="140"/>
+                                <rect key="frame" x="147" y="404" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="140" id="cy4-Tv-NnP"/>
-                                    <constraint firstAttribute="height" constant="140" id="hvc-vy-4th"/>
+                                    <constraint firstAttribute="width" constant="120" id="cy4-Tv-NnP"/>
+                                    <constraint firstAttribute="height" constant="120" id="hvc-vy-4th"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2T6-Ji-fOD">
-                                <rect key="frame" x="79.5" y="754" width="255" height="83"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="79.5" y="739" width="255" height="83"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="255" id="9eX-oO-X1X"/>
                                     <constraint firstAttribute="height" constant="83" id="Ra8-fO-Ic4"/>
                                 </constraints>
-                                <color key="tintColor" red="0.15222047280000001" green="0.59400491720000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="START">
-                                    <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="34"/>
-                                    <color key="baseForegroundColor" red="0.26307370689999998" green="0.59400491720000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
-                                </buttonConfiguration>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="34"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.26307370689999998" green="0.59400491720000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="startPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="bUb-PO-Q25"/>
                                 </connections>
@@ -62,7 +62,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2T6-Ji-fOD" secondAttribute="bottom" constant="25" id="1pA-YP-2cy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2T6-Ji-fOD" secondAttribute="bottom" constant="40" id="1pA-YP-2cy"/>
                             <constraint firstItem="FGO-bY-LFC" firstAttribute="top" secondItem="Z4w-8x-5qE" secondAttribute="bottom" constant="40" id="7ka-Jf-uQR"/>
                             <constraint firstItem="Mhg-7S-uYu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="FW2-8P-esQ"/>
                             <constraint firstItem="2T6-Ji-fOD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KYd-En-aI5"/>
@@ -85,11 +85,11 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
